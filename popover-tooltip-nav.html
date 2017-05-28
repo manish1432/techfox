@@ -1,0 +1,140 @@
+    <!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 3 Fixed Layout Example</title>
+
+   <script src="js/jquery.min.js"></script>   	
+   <script src="js/bootstrap.min.js"></script>   	
+   <link rel="stylesheet" href="css/bootstrap.css"> 
+	<link rel="stylesheet" href="css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css"> 	
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>	
+<style>
+<!--   .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+	  height:50%;
+      margin: auto;
+  }
+ --> 
+  
+<!--      .affix {
+	   top:0;
+	   width:100%;
+	 }
+    .affix-top {
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  } -->
+  
+ </style>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <nav id="navbar" class="navbar navbar-inverse" data-spy="affix" data-offset-top="50">
+		<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarmenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  </div>
+        <div class="collapse navbar-collapse" id="navbarmenu">
+		  <ul class="nav navbar-nav" >
+		   <li class="active"><a href="#section1">Home</a></li>
+		   <li><a href="#section2" data-toggle="tooltip" title="About">About</a></li>
+		   <li><a href="#section3" data-toggle="popover" title="Contact" data-content="Contact details are given in this section" >Contact</a></li>
+		   <li class="dropdown">
+		   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <span class="caret"></span></a>
+		   <ul class="dropdown-menu">
+		     <li>              <a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+		   </ul>
+		   </li>
+		  </ul>
+    <ul class="nav navbar-nav navbar-right">
+	  <li><a href="#"><span class="glyphicon glyphicon-bell">6</span>
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li>    <input class="form-control mr-sm-2" type="text" placeholder="Search"></li>
+          <li><button class="glyphicon glyphicon-search btn btn-success" type="submit">Search</button></li>
+	  
+    </ul> 
+	</div>
+			</nav>
+		   
+<!--     <form class="form-inline">
+
+        <div class="form-group">
+
+            <label for="inputEmail" class="sr-only">Email</label>
+<div class="col-xs-10">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+</div>
+        </div>
+
+        <div class="form-group">
+
+            <label for="inputPassword">Password</label>
+
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+
+        </div>
+
+        <div class="checkbox">
+
+            <label><input type="checkbox"> Remember me</label>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Login</button>
+
+    </form>
+--> <div class="container" style="height:1000px">
+<div id="section1">
+  <h1>Section 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section41">
+  <h1>Section 4 Submenu 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section42">
+  <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+</div>
+
+</body>
+</html>
